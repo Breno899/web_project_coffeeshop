@@ -1,24 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Breno Hora"/>
-    <link rel="stylesheet" href="pages/index.css"/>
-    <link rel="stylesheet" href="vendor/normalize.css"/>
+    <meta name="author" content="Breno Hora">
+    <meta name="description" content="projeto da triple ten">
+    <meta name="keywords" content="html e css">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Café</title>
     </head>
 <body>
     <div class="page">
-    <header>
-
+    <header class="header">
+  <nav class="nav">
+    <img 
+  src="images/logo_coffeeshop_dark.svg"
+  class="logo" >
+ <ul class="nav__links">
+<li>
+  <a class="nav__link"> Receitas</a>
+</li>
+ <li>
+  <a class="nav__link"> Reservar uma mesa</a>
+ </li>
+<li>
+  <a class="nav__link">Contatos</a>
+</li>
+</ul>
+  </nav>
+  <div class="header__content">
+    
+    <h1 class="header__title">
+       <span class="span-accent"> Café especial</span> na biblioteca Triple Peaks </h1>
+      
+        <a class="header__description"> Esta é a nossa zona de estudo! Temos aquele cafézinho para energizar você e 
+          vibrações aconchegantes para soltar a criatividade</a>
+          <img 
+          src="images/inside_coffee_shop.png"
+          class="header__image">
+          <div class="header__footer">
+            <div class="header__hours">
+              
+                <p class="header__hour"> Horários:</p>
+              <p class="header__hour"> Segunda a sexta (10:00 - 19:00)</p>
+               <p class="header__hour">Sábado a domingo (11:00 - 18:00)</p>
+        
+            </div>
+            <p class="header__info"> 
+             200 Sucess Avenue, a cidade de Triple Peaks </p>
+            </div>
+        </div>
+      
     </header>
 
-    <main>
+    <main class="content">
+       <section class="recipes">
+    <div class="recipe__titles">
+        <h2 class="recipes__title"> Receitas</h2>
+    <h2 class="recipes__subtitle"> Confira algumas receitas que coletamos para seu lanchinho caseiro: </h2>
+    </div>
+    <div class="recipes__videos">
+    <iframe class="recipes__video1" width="560" height="315" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=eIvninr2VE69e76w" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe class="recipes__video2" width="560" height="315" src="https://www.youtube.com/embed/st571DYYTR8?si=oj854c-SAYKEJhYJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+     picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div class="video__description">
+    <p class="video__caption"> Receita Aeropress             ~5 min</p>
+    <p class="video__caption" > Receita de Prensa Françesa        ~15</p>
+  </div>
+    </div>
+  </section>
+       <section class="container">
 
+       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
 
     </footer>
     </div>
