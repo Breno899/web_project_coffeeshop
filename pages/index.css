@@ -43,7 +43,10 @@
     background-size: cover;
     background-position: center;
     background-color: white;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+    padding:30px 80px 40px 80px ;
 }
 
 .header__content {
@@ -110,9 +113,10 @@
     flex-direction: column;
 }
 
-.header__hour {
+.header__paragrafh {
     margin: 0;
     padding: 0;
+    
 }
 
 .header__info {
@@ -131,6 +135,8 @@
 display: flex;
 margin-top: auto;
 justify-content: space-between;
+align-items: center;
+
 }
 
 .content {
@@ -205,8 +211,5 @@ height: 350px;
 
 .video__descripction {
     display: flex;
-    position: relative;
-    left: 45px ;
-    bottom: 105px;
     
 }
