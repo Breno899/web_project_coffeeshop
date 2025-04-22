@@ -206,3 +206,9 @@ height: 350px;
 .video__descripction {
     display:flex;
 }
+
+.container {
+    background-image: url(/images/background_reservation.svg) ;
+     height: 750px;
+    
+}
