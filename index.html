@@ -83,8 +83,23 @@
    
         </div>
   </section>
-       <section class="container" id="reservation">
+     <section class="reservation" id="reservation"> 
+<h2 class="reservation__title">Reservar uma mesa</h2>
+<div class="reservation__form">
+  <fieldset class="form__fieldset">
+<label for="name" class="form__label">Nome *</label>
+<input class="form__item form__item_el_name"  type="text" id="name" name="name" placeholder="Nome" required>
+<label for="guess" class="form__label">Número de convidados *</label>
+<input class="form__item form__item_el_guess"  type="number" id="guess" name="guess" placeholder="1-8" required>
+<label for="date" class="form__label">Data e hora *</label>
+<input class="form__item form__item_el_date"  type="date" id="date" name="date" placeholder="mm/dd/aaaa" required>
+<label for="email" class="form__label">Seu email *</label>
+<input class="form__item form__item_el_email"  type="email" id="email" name="email" placeholder="email@email.com" required>
 
+  
+  
+  </fieldset>
+</div>
        </section>
     </main>
 
