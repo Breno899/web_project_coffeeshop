@@ -232,6 +232,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 30px;
+border-radius: 4px;
 
 }
 
@@ -245,9 +246,38 @@ column-gap: 20px;
 }
 
 .form__fieldset {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     top: 80px;
+    
+}
+
+.form__handler {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 85px;
+}
+
+.form__button {
+ font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+}
+
+.form__button[type="submit"] {
+    color: #FFFFFF;
+    background-color: #2F80ED;
+}
+
+.form__button:hover {
+    border-radius: 4px;
+    
 }
