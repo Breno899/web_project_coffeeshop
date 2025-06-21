@@ -19,7 +19,7 @@
   <nav class="nav">
     <img 
   src="images/logo_coffeeshop_dark.svg"
-  class="logo"
+  class="nav__logo"
   alt="logo image" >
  <ul class="nav__links">
 <li>
@@ -29,12 +29,12 @@
   <a class="nav__link" href="#reservation"> Reservar uma mesa</a>
  </li>
 <li>
-  <a class="nav__link" >Contatos</a>
+  <a class="nav__link" href="#contacts" >Contatos</a>
 </li>
 </ul>
   </nav>
   <h1 class="header__title">
-    <span class="span-accent"> Café especial</span> na biblioteca Triple Peaks </h1>
+    <span class="header__span-accent"> Café especial</span> na biblioteca Triple Peaks </h1>
    
      <p class="header__description"> Esta é a nossa zona de estudo! Temos aquele cafézinho para energizar você e 
        vibrações aconchegantes para soltar a criatividade</p>
@@ -85,30 +85,40 @@
   </section>
      <section class="reservation" id="reservation"> 
 <h2 class="reservation__title">Reservar uma mesa</h2>
-<div class="reservation__form">
+<form class="reservation__form form">
   <fieldset class="form__fieldset">
 <label for="name" class="form__label">Nome *</label>
-<input class="form__item form__item_el_name"  type="text" id="name" name="name" placeholder="Nome" required>
+<input class="form__item"  type="text" id="name" name="name" placeholder="Nome" required>
 <label for="guess" class="form__label">Número de convidados *</label>
-<input class="form__item form__item_el_guess"  type="number" id="guess" name="guess" placeholder="1-8" required>
+<input class="form__item"  type="number" id="guess" name="guess" placeholder="1-8" required>
 <label for="date" class="form__label">Data e hora *</label>
-<input class="form__item form__item_el_date"  type="datetime-local" id="date" name="date" required>
+<input class="form__item"  type="datetime-local" id="date" name="date" required>
 <label for="email" class="form__label">Seu email *</label>
-<input class="form__item form__item_el_email"  type="email" id="email" name="email" placeholder="email@email.com" required>
-  </fieldset>
-  <fieldset class="form__handler">
-  <button class="form__button" type="submit"> Reservar uma mesa </button>
-  <input type="checkbox" class="form_el_extra_option" id="checkbox-reserve" name="extraoption" value="checkbox-reserve">
-  <span class="form_el_extra_option_span"></span>
+<input class="form__item"  type="email" id="email" name="email" placeholder="email@email.com" required>
+ <button class="form__button" type="submit"> Reservar uma mesa </button>
+ <div class="form__checkbox">
+  <input type="checkbox" class="form__extra" id="checkbox-reserve" name="extraoption" value="checkbox-reserve">
+  <span class="form__span"></span>
   <span>Eu concordo com os termos de uso</span>
+ </div>
   </fieldset>
-</div>
+</form>        
        </section>
     </main>
-
-    <footer class="footer">
-
+     <footer class="footer">
+<section class="contacts" id="contacts">
+      <div class="footer__content">
+      <!--
+        <div class="footer__circle">
+        -->
+     <img 
+     src="/images/logo_coffeeshop_light.svg"
+     class="footer__logo"
+     alt="footer logo">
+        </div>
+      </div>
     </footer>
+</section>
     </div>
 </body>
 

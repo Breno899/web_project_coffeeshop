@@ -1,0 +1,28 @@
+.footer {
+    background-color: #0A2850;
+    height: 300px;
+    padding-top: 60px;
+   
+}
+
+.footer__content {
+    display: flex;
+    margin-left: 80px;
+}
+
+.footer__logo {
+    width: 105px;
+    height: 39px;
+}
+
+/*
+.footer__circle {
+   display: flex;
+   position: absolute;
+    background: #2F80ED;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+
+}
+    */
